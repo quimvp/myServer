@@ -1,0 +1,22 @@
+{
+  "name": "myserver",
+  "version": "1.0.0",
+  "description": "Servidor con express y node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "server",
+    "express",
+    "node"
+  ],
+  "author": "JVP",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0"
+  }
+}
