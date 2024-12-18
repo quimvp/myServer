@@ -36,8 +36,16 @@
 
     s TUSER(username)=activated
 
-![Kimetoo](./static/img/selfie-040.jpg "Guapíssim...!")
+![Kimeto'o](./static/img/selfie-040.jpg "Guapíssim...!")
 
 <https://x.com>
 
 \* ojo esto es texto sin negrita
+
+echo "# myServer" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/quimvp/myServer.git
+git push -u origin main
